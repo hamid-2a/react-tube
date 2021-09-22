@@ -50,7 +50,7 @@
 
 .App .main-content .waiting-card .spinner-img {
   width: 100px;
-  margin: 80px auto;
+  margin: 30px auto;
 }
 
 .App .main-content .playing-video {
@@ -69,6 +69,7 @@
 
 .App .right-sidebar .waiting-card {
   margin: 10px auto;
+  width: 80%;
 }
 
 .App .right-sidebar .waiting-card .spinner-img {

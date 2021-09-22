@@ -29,7 +29,7 @@ const getData = async (searchValue, setData, setPlayingVideo) => {
     method: "GET",
     params: {
       part: "snippet",
-      key: "AIzaSyBLF-qplB3n6ZQSGvqCA9vA0c_2jJteG2g",
+      key: "AIzaSyBuksBxAtaaHZr5uerHqCwMuCUVTX0LlqM",
       type: "video",
       maxResults: 6,
       q: searchValue
@@ -67,7 +67,7 @@ const App = () => {
 
   useEffect(() => {
     console.log("%c use effect", "color: yellow");
-    getData(searchValue, setData, setPlayingVideo)
+    //getData(searchValue, setData, setPlayingVideo)
   },
     [searchValue]);
 
