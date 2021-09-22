@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+$myRed: #ff3535;
+
+.App {
+    //background-color: #141414;
+
+    .header {
+        //background-color: #1297E0;
+        padding-top: 15px;
+        height: 60px;
+        border-bottom: 1px solid rgb(180, 180, 180);
+
+        .searchInput {
+            border-radius: 10px;
+            width: 70%;
+            margin: auto 10px;
+            border-color: $myRed;
+        }
+
+        .search-btn {
+            background-color: $myRed;
+            color: #FFF;
+            border-radius: 10px;
+        }
+    }
+
+    .main-content {
+        height: 90vh;
+
+        .app-name {
+            font-family: 'Teko', sans-serif;
+            font-size: 50px;
+            padding-left: 20px;
+            margin: 0;
+            color: $myRed;
+        }
+
+        .switch-container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .switch-text {
+                font-family: 'Teko', sans-serif;
+                color: $myRed;
+                font-size: 20px;
+            }
+        }
+
+        .waiting-card {
+            margin: auto;
+
+            .spinner-img {
+                width: 100px;
+                margin: 80px auto;
+            }
+        }
+
+        .playing-video {
+            margin: auto;
+            margin-bottom: 50px;
+
+            .video-player {
+                min-height: 350px;
+                border-color: transparent;
+            }
+        }
+    }
+
+    .right-sidebar {
+        border-left: 1px solid #818181;
+
+        .waiting-card {
+            margin: 10px auto;
+
+            .spinner-img {
+                width: 60px;
+                margin: 30px auto;
+            }
+        }
+
+        .search-result {
+            margin: 10px auto;
+        }
+    }
+
+    .chanel-id {
+        margin-top: 10px;
+
+        a:hover {
+            color: $myRed;
+        }
+    }
+}
+
+//--------------------------------------
+$background_dark: #181818;
+$elements_dark: #303030;
+$dark_text: #FFF;
+
+.dark {
+    background-color: $background_dark;
+    color: $dark_text;
+
+    .header {
+
+        .searchInput,
+        .ant-input {
+            background-color: $elements_dark;
+        }
+
+        .search-btn {
+            border-color: transparent;
+        }
+    }
+
+
+    .card {
+        background-color: $elements_dark;
+        border-color: rgb(77, 77, 77);
+
+        .video-player {
+            border-color: transparent;
+        }
+
+        .ant-card-meta-title {
+            color: $dark_text;
+        }
+
+        .ant-card-meta-description {
+            color: rgb(211, 211, 211);
+        }
+
+        .chanel-id {
+            a {
+                color: rgb(0, 149, 218);
+
+                &:hover {
+                    color: #ff642c;
+                }
+            }
+        }
+    }
+}

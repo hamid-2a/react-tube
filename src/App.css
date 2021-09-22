@@ -1,5 +1,129 @@
-.App {
-  text-align: center;
-  margin: 20px;
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+.App .header {
+  padding-top: 15px;
+  height: 60px;
+  border-bottom: 1px solid #b4b4b4;
 }
 
+.App .header .searchInput {
+  border-radius: 10px;
+  width: 70%;
+  margin: auto 10px;
+  border-color: #ff3535;
+}
+
+.App .header .search-btn {
+  background-color: #ff3535;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+.App .main-content {
+  height: 90vh;
+}
+
+.App .main-content .app-name {
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  padding-left: 20px;
+  margin: 0;
+  color: #ff3535;
+}
+
+.App .main-content .switch-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .main-content .switch-container .switch-text {
+  font-family: 'Teko', sans-serif;
+  color: #ff3535;
+  font-size: 20px;
+}
+
+.App .main-content .waiting-card {
+  margin: auto;
+}
+
+.App .main-content .waiting-card .spinner-img {
+  width: 100px;
+  margin: 80px auto;
+}
+
+.App .main-content .playing-video {
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.App .main-content .playing-video .video-player {
+  min-height: 350px;
+  border-color: transparent;
+}
+
+.App .right-sidebar {
+  border-left: 1px solid #818181;
+}
+
+.App .right-sidebar .waiting-card {
+  margin: 10px auto;
+}
+
+.App .right-sidebar .waiting-card .spinner-img {
+  width: 60px;
+  margin: 30px auto;
+}
+
+.App .right-sidebar .search-result {
+  margin: 10px auto;
+}
+
+.App .chanel-id {
+  margin-top: 10px;
+}
+
+.App .chanel-id a:hover {
+  color: #ff3535;
+}
+
+.dark {
+  background-color: #181818;
+  color: #FFF;
+}
+
+.dark .header .searchInput,
+.dark .header .ant-input {
+  background-color: #303030;
+}
+
+.dark .header .search-btn {
+  border-color: transparent;
+}
+
+.dark .card {
+  background-color: #303030;
+  border-color: #4d4d4d;
+}
+
+.dark .card .video-player {
+  border-color: transparent;
+}
+
+.dark .card .ant-card-meta-title {
+  color: #FFF;
+}
+
+.dark .card .ant-card-meta-description {
+  color: lightgray;
+}
+
+.dark .card .chanel-id a {
+  color: #0095da;
+}
+
+.dark .card .chanel-id a:hover {
+  color: #ff642c;
+}
+/*# sourceMappingURL=App.css.map */
