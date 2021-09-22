@@ -3,7 +3,6 @@
 $myRed: #ff3535;
 
 .App {
-    //background-color: #141414;
 
     .header {
         //background-color: #1297E0;
@@ -26,7 +25,6 @@ $myRed: #ff3535;
     }
 
     .main-content {
-        height: 90vh;
 
         .app-name {
             font-family: 'Teko', sans-serif;
@@ -64,7 +62,7 @@ $myRed: #ff3535;
             margin-bottom: 50px;
 
             .video-player {
-                min-height: 350px;
+                min-height: 300px;
                 border-color: transparent;
             }
         }
@@ -75,7 +73,7 @@ $myRed: #ff3535;
 
         .waiting-card {
             margin: 10px auto;
-            width: 80%;
+            width: 60%;
 
             .spinner-img {
                 width: 60px;

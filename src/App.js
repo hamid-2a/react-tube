@@ -67,7 +67,7 @@ const App = () => {
 
   useEffect(() => {
     console.log("%c use effect", "color: yellow");
-    //getData(searchValue, setData, setPlayingVideo)
+    getData(searchValue, setData, setPlayingVideo)
   },
     [searchValue]);
 
@@ -88,6 +88,7 @@ const App = () => {
             }} />
 
           <Button
+            size='small'
             className="search-btn"
             icon={<SearchOutlined />}
             onClick={() => {
@@ -174,7 +175,6 @@ const App = () => {
             {
               !data.data ?
                 <Card
-                  md={14} xs={24}
                   className="card waiting-card"
                   cover={<img className="spinner-img" alt="loading" src={Loader} />}
                 >
